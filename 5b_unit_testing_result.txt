@@ -1,0 +1,18 @@
+theia@theiadocker-madumithaa25:/home/project/final_project/emotion
+-detector$ python3 test_emotion_detection.py
+Input: I am glad this happened
+Expected: joy, Detected: joy
+
+Input: I am really mad about this
+Expected: anger, Detected: anger
+
+Input: I feel disgusted just hearing about this
+Expected: disgust, Detected: disgust
+
+Input: I am so sad about this
+Expected: sadness, Detected: sadness
+
+Input: I am really afraid that this will happen
+Expected: fear, Detected: fear
+
+All tests passed!
